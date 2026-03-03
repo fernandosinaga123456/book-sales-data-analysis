@@ -1,16 +1,16 @@
 # Book Sales Data Analysis
 
-> Tools: Microsoft Excel | Python | Power BI &nbsp;|&nbsp; By: Fernando H Sinaga
+> Tools: Microsoft Excel | Python | Power BI&nbsp;|&nbsp;Oleh: Fernando Hasiholan Sinaga
 
 ---
 
 ## Latar Belakang
 
-Toko buku menghasilkan data penjualan dalam jumlah besar setiap harinya, tapi seberapa banyak dari data itu yang benar-benar dimanfaatkan?
+Toko buku menghasilkan data penjualan dalam jumlah besar setiap harinya, namun tidak semua data tersebut dimanfaatkan secara optimal. Pertanyaan itulah yang menjadi dasar dari proyek ini.
 
-Pertanyaan itulah yang mendorong saya mengerjakan proyek ini. Dengan 971 data buku yang sudah melalui proses cleaning, saya mencoba menjawab pertanyaan-pertanyaan bisnis yang sederhana tapi penting: Buku mana yang paling laris? Genre apa yang paling diminati pembeli? Publisher mana yang paling dominan? Author mana yang paling banyak dibeli dan paling disukai pembaca?
+Dengan 971 data buku yang telah melalui proses cleaning, proyek ini berusaha menjawab pertanyaan bisnis yang sederhana namun penting: Buku mana yang paling laris? Genre apa yang paling diminati? Publisher mana yang paling dominan? Author mana yang paling banyak dibeli dan paling disukai pembaca?
 
-Proyek ini adalah latihan nyata dalam mengolah data dari awal, mulai dari data cleaning menggunakan Python, eksplorasi data menggunakan Excel, hingga menyajikannya dalam dashboard Power BI yang bisa langsung digunakan untuk pengambilan keputusan bisnis.
+Proyek ini merupakan latihan nyata dalam mengolah data dari awal, mulai dari data cleaning menggunakan Python, eksplorasi data menggunakan Excel, hingga penyajian dalam dashboard Power BI yang dapat digunakan langsung untuk pengambilan keputusan bisnis.
 
 ---
 
@@ -18,11 +18,11 @@ Proyek ini adalah latihan nyata dalam mengolah data dari awal, mulai dari data c
 
 ### 1. Data Cleaning - Python (Pandas Library)
 
-Perjalanan dimulai dari data yang belum sempurna. Missing values ditangani dengan `df.dropna()`, kolom yang tidak relevan seperti index, sales rank, dan author rating dihapus, tipe data Publishing Year diubah dari float ke integer, dan inkonsistensi pada kolom genre diselesaikan dengan menggabungkan "genre fiction" dan "fiction" menjadi satu kategori. Setelah proses ini, data siap untuk dianalisis.
+Tahapan pertama adalah membersihkan data yang belum siap dianalisis. Missing values ditangani menggunakan df.dropna(), kolom yang tidak relevan seperti index, sales rank, dan author rating dihapus untuk menyederhanakan dataset. Tipe data pada kolom Publishing Year dikonversi dari float ke integer, dan inkonsistensi pada kolom genre diatasi dengan menggabungkan kategori "genre fiction" dan "fiction" menjadi satu. Setelah seluruh proses ini selesai, data sudah bersih dan siap untuk dianalisis lebih lanjut.
 
 ### 2. Exploratory Data Analysis - Microsoft Excel (Pivot Table)
 
-Dengan data yang sudah bersih, saatnya menggali lebih dalam. Menggunakan Pivot Table di Excel, setiap buku dianalisis untuk menemukan pola penjualan, performa per genre, publisher dan author terlaris, hingga distribusi pasar berdasarkan bahasa buku.
+Tahapan kedua adalah eksplorasi data menggunakan Pivot Table di Microsoft Excel. Data yang sudah bersih dianalisis untuk menemukan pola penjualan, performa per genre, publisher dan author terlaris, hingga distribusi pasar berdasarkan bahasa buku.
 
 **Key Metrics yang ditemukan:**
 
@@ -81,7 +81,7 @@ Kedua genre ini penjualannya tidak sebesar fiction, jadi perlu lebih hati-hati d
 
 Dari 971 data buku yang dianalisis, terlihat jelas bahwa fiction adalah genre yang paling dicari, buku berbahasa Inggris menguasai hampir seluruh pasar, dan nama-nama seperti Stephen King serta Random House sudah jadi pilihan utama pembeli. Rating rata-rata koleksi sebesar 4,00 juga menunjukkan bahwa buku-buku yang ada sudah cukup disukai pembaca.
 
-Temuan ini bisa langsung dipakai sebagai dasar untuk mengatur stok, memilih mitra publisher, dan menentukan arah pengembangan koleksi ke depannya. Kalau ke depan datanya bisa dilengkapi dengan tren penjualan per periode dan data pelanggan, analisisnya tentu bisa jauh lebih tajam dan berguna.
+Temuan ini bisa langsung dipakai sebagai dasar untuk mengatur stok, memilih mitra publisher dan menentukan arah pengembangan koleksi ke depannya. Kalau ke depan datanya bisa dilengkapi dengan tren penjualan per periode dan data pelanggan, analisisnya tentu bisa jauh lebih tajam dan berguna.
 
 ## Contact
 
@@ -90,4 +90,5 @@ Temuan ini bisa langsung dipakai sebagai dasar untuk mengatur stok, memilih mitr
 | GitHub | [fernandosinaga123456](https://github.com/fernandosinaga123456) |
 | Email | [fernandosinaga2002@gmail.com](mailto:fernandosinaga2002@gmail.com) |
 | LinkedIn | [Fernando Hasiholan Sinaga](https://www.linkedin.com/in/fernandohasiholansinaga/) |
+| Portfolio | [datascienceportfol.io/fernandosinaga_h](https://www.datascienceportfol.io/fernandosinaga_h) |
 | Instagram | [@fernandosng_](https://www.instagram.com/fernandosng_) |
